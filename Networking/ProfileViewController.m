@@ -34,7 +34,7 @@
                                          JSONRequestOperationWithRequest:request
                                          
                                          success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON) {
-                                             //NSLog(@"JSON is %@", JSON);
+                                             //NSLog(@"JSON: %@", JSON);
                                              self.userProfile = JSON;
                                              [self requestSuccessful];
                                          }

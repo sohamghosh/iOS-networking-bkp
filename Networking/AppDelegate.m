@@ -6,7 +6,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Feed
+    // Feed Nav
     FeedTableViewController *feedTableViewController = [[FeedTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
     UINavigationController *feedNavController = [[UINavigationController alloc]
                                              initWithRootViewController:feedTableViewController];
