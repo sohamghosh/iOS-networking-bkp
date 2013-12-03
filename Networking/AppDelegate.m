@@ -22,6 +22,8 @@
     self.window.rootViewController = tabBarViewController;
     [self.window makeKeyAndVisible];
     return YES;
+    
+    
 }
 
 @end
